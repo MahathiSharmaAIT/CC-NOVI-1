@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 document.addEventListener('DOMContentLoaded', function() {
   initializeNavigation();
   initializeServiceModals();
+  
   initializeTeamSlider();
   
   // Initialize AOS
@@ -17,7 +18,7 @@ function initializeNavigation() {
   const header = document.getElementById('header');
   const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
   const navMenu = document.querySelector('.nav-menu');
-
+  
   if (header) {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 100) {
