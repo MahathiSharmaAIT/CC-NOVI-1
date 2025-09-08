@@ -225,6 +225,7 @@ function initializeServiceModals() {
 //     }
 //   });
 // }
+//just checking
 function initializeTeamSlider() {
   const track = document.querySelector('.team-slider-track');
   const slides = document.querySelectorAll('.team-member');
